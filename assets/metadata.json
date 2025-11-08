@@ -1,0 +1,16 @@
+{
+    "name": "Achievement Badge",
+    "symbol": "ACH",
+    "description": "Awarded for completing a DEVETA learning milestone.",
+    "seller_fee_basis_points": 0,
+    "image": "badge.png",
+    "attributes": [
+      { "trait_type": "Category", "value": "Learning" },
+      { "trait_type": "Level", "value": "Gold" }
+    ],
+    "properties": {
+      "files": [{ "uri": "badge.png", "type": "image/png" }],
+      "category": "image"
+    }
+  }
+  

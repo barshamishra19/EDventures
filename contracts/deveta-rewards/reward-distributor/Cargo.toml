@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "programs/*"
+]
+
+[toolchain]
+anchor_version = "0.30.1"
+
+[profile.release]
+overflow-checks = true

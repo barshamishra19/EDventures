@@ -1,0 +1,19 @@
+[toolchain]
+package_manager = "yarn"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+reward_distributor = "ATga2eX8V3LqL7ZAuwyqTh3j2s839k8urkbLsQdEcrX8"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/aryankarfa/.config/solana/devnet.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
